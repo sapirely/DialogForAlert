@@ -2,6 +2,7 @@ package com.unit2.dialogforalert;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.DialogFragment;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -44,4 +45,6 @@ public class MainActivity extends AppCompatActivity {
         // Create and show the AlertDialog.
         myAlertBuilder.show();
     }
+
+
 }
